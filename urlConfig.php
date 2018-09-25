@@ -1,0 +1,152 @@
+<?PHP
+$accessKey ='';
+if($actual_url == 'View/masters/GroupPermission.php'){
+	$accessKey ='';
+}else if($actual_url=='View/masters/UsersList.php'){
+	$accessKey ='user_view';
+}else if($actual_url=='View/masters/CreateUser.php'){
+	$accessKey ='user_view';
+}else if($actual_url=='View/masters/userinfo.php'){
+	$accessKey ='privilege_view';
+}else if($actual_url=='View/masters/UserMenu.php'){
+	$accessKey ='';
+}else if($actual_url=='View/masters/unit.php'){
+	$accessKey ='unit_view';
+}else if($actual_url=='View/masters/group.php'){
+	$accessKey ='group_view';
+}else if($actual_url=='View/masters/state.php'){
+	$accessKey ='state_view';
+}else if($actual_url=='View/masters/city.php'){
+	$accessKey ='city_view';
+}else if($actual_url=='View/masters/location.php'){
+	$accessKey ='location_view';
+}else if($actual_url=='View/masters/item.php'){
+	$accessKey ='item_view';
+}else if($actual_url=='View/masters/principal.php?ID='){
+	$accessKey ='principal_view';
+}else if($actual_url=='View/masters/ViewPrincipal.php'){
+	$accessKey ='principal_view';
+}else if($actual_url=='View/masters/supplier.php?ID='){
+	$accessKey ='supplier_view';
+}else if($actual_url=='View/masters/ViewSupplier.php'){
+	$accessKey ='supplier_view';
+}else if($actual_url=='View/masters/GroupPermission.php'){
+	$accessKey ='';
+}else if($actual_url=='View/masters/ViewBuyer.php'){
+	$accessKey ='buyer_view';
+}else if($actual_url=='View/masters/ChangePassword.php'){
+	$accessKey ='';
+}else if($actual_url=='View/Business_View/quotation.php?QUOTATIONNUMBER='){
+	$accessKey ='quotation_view';
+}else if($actual_url=='View/Business_View/viewQuotation.php'){
+	$accessKey ='quotation_view';
+}else if($actual_url=='View/Business_View/quotation_report.php'){
+	$accessKey ='';
+}else if($actual_url=='View/Business_View/invoice_incoming_nonexciseduty.php?ID='){
+	$accessKey ='innonexcise_view';
+}else if($actual_url=='View/Business_View/IncomingInvoiceNonExciseView.php'){
+	$accessKey ='innonexcise_view';
+}else if($actual_url=='View/Business_View/purchaseorder.php?POID=&USER=&fromPage='){
+	$accessKey ='po_view';
+}else if($actual_url=='View/ViewPurchaseOrder.php'){
+	$accessKey ='po_view';
+}else if($actual_url=='View/Business_View/Search.php'){
+	$accessKey ='';
+}else if($actual_url=='View/Business_View/PO_Approval_Form.php'){
+	$accessKey ='';
+}else if($actual_url=='View/Business_View/po_schedule.php?POID='){
+	$accessKey ='recurringpo_view';
+}else if($actual_url=='View/Business_View/StockTransfer.php?ID='){
+	$accessKey ='stock_transfer_view';
+}else if($actual_url=='View/Business_View/StockTransferView.php'){
+	$accessKey ='stock_transfer_view';
+}else if($actual_url=='View/Business_View/StockCheck.php?POID='){
+	$accessKey ='stock_check_view';
+}else if($actual_url=='View/Business_View/Challan.php?ID='){
+	$accessKey ='challan_view';
+}else if($actual_url=='View/Business_View/ChallanView.php'){
+	$accessKey ='challan_view';
+}else if($actual_url=='View/Business_View/new_incoming_invoice_excise.php?IncomingInvoiceExciseNum='){
+	$accessKey ='inexcise_view';
+}else if($actual_url=='View/Business_View/view_incoming_invoice_excise.php'){
+	$accessKey ='inexcise_view';
+}else if($actual_url=='View/Business_View/print_incoming_invoice_excise.php'){
+	$accessKey ='';
+}else if($actual_url=='View/Business_View/new_Outgoing_Invoice_Excise.php?OutgoingInvoiceNonExciseNum='){
+	$accessKey ='outexcise_view';
+}else if($actual_url=='View/Business_View/view_Outgoing_Invoice_Excise.php'){
+	$accessKey ='outexcise_view';
+}else if($actual_url=='View/Business_View/print_outgoingexcise.php'){
+	$accessKey ='outexcise_view';
+}else if($actual_url=='View/Business_View/new_Outgoing_Invoice_NonExcise.php?OutgoingInvoiceNonExciseNum='){
+	$accessKey ='outnonexcise_view';
+}else if($actual_url=='View/Business_View/view_Outgoing_Invoice_NonExcise.php'){
+	$accessKey ='outnonexcise_view';
+}else if($actual_url=='View/Business_View/print_outgoingNonExcise.php'){
+	$accessKey ='outnonexcise_view';
+}else if($actual_url=='View/Business_View/PO_Approval_Form.php'){
+	$accessKey ='';
+}else if($actual_url=='View/ReportView/SalseReport.php'){
+	$accessKey ='';
+}else if($actual_url=='View/ReportView/stock_report.php'){
+	$accessKey ='';
+}else if($actual_url=='View/ReportView/excise_stockstatement.php'){
+	$accessKey ='';
+}else if($actual_url=='View/ReportView/excise_nonexcise_challan_stockstatement.php'){
+	$accessKey ='';
+}else if($actual_url=='View/ReportView/nonexcise_stockstatement.php'){
+	$accessKey ='excisenonexcixestoc_view';
+}else if($actual_url=='View/ReportView/excise_stock.php'){
+	$accessKey ='excisestockstmt_view';
+}else if($actual_url=='View/ReportView/non_excise_stock.php'){
+	$accessKey ='nonexcisestockstmt_view';
+}else if($actual_url=='View/ReportView/SecondarySalesStatement.php'){
+	$accessKey ='excisesecondsal_view';
+}else if($actual_url=='View/ReportView/NonSecondarySalesStatement.php'){
+	$accessKey ='nonexcisesecondsal_view';
+}else if($actual_url=='View/ReportView/SalesStatement.php'){
+	$accessKey ='excisesalstmt_view';
+}else if($actual_url=='View/ReportView/NonSalesStatement.php'){
+	$accessKey ='nonexcisesalstmt_view';
+}else if($actual_url=='View/ReportView/po_pending_report.php'){
+	$accessKey ='pendingpo_view';
+}else if($actual_url=='View/ReportView/po_delivered_report.php'){
+	$accessKey ='deliveredpo_view';
+}else if($actual_url=='View/ReportView/po_partial_delivered_report.php'){
+	$accessKey ='partialpo_view';
+}else if($actual_url=='View/ReportView/ProductLedgerExcise.php'){
+	$accessKey ='exciseproductledger_view';
+}else if($actual_url=='View/ReportView/ProductLedgerNonExcise.php'){
+	$accessKey ='nonexciseproductledger_view';
+}else if($actual_url=='View/ReportView/SalesTaxReturnExcise.php'){
+	$accessKey ='salestaxreturnexcise_view';
+}else if($actual_url=='View/ReportView/SalesTaxReturnNonExcise.php'){
+	$accessKey ='salestaxreturnnonexcise_view';
+}else if($actual_url=='View/ReportView/incomingexcisereturn.php'){
+	$accessKey ='innonexcisereturn_view';
+}else if($actual_url=='View/ReportView/outgoingexcisereturn.php'){
+	$accessKey ='innonexcisereturn_view';
+}else if($actual_url=='View/ReportView/stocktransferexcisereturn.php'){
+	$accessKey ='innonexcisereturn_view';
+}else if($actual_url=='View/ReportView/outgoing_invoice_payment_pending_list.php'){
+	$accessKey ='pendinginv_view';
+}else if($actual_url=='View/ReportView/outgoing_invoice_Buyer_payment_pending_list.php'){
+	$accessKey ='pendingbuyer_view';
+}else if($actual_url=='View/ReportView/buyer_wise_revenue_report.php'){
+	$accessKey ='buyerrevenue_view';
+}else if($actual_url=='View/ReportView/finalcial_year_wise_revenue_report.php'){
+	$accessKey ='finrevenue_view';
+}else if($actual_url=='View/ReportView/marginreport.php'){
+	$accessKey ='marginreport_view';
+}else if($actual_url=='View/ReportView/marginreportNonExcise.php'){
+	$accessKey ='marginreport_view';
+}else if($actual_url=='View/Business_View/payment.php?trxnId='){
+	$accessKey ='payment_view';
+}else if($actual_url=='View/Business_View/payment_received_list.php'){
+	$accessKey ='payment_view';
+}else if($actual_url=='View/ReportView/rg_23d_report.php'){
+	$accessKey ='rg23dreport_view';
+}
+ 
+ 	
+?>

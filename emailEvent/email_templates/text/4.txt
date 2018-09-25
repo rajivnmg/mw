@@ -1,0 +1,5 @@
+Dear %BORROWER_NAME%,
+You have applied for INR %AMOUNT%  at %BID_INTEREST% % for a period of %DURATION% month(s). 
+For more details please go to your registered Email ID.
+Regards, 
+%REGARDS_NAME%

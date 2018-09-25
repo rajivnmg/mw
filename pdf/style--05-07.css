@@ -1,0 +1,7 @@
+table td{font-size: 13px;
+    padding: 5px;
+	border: 1px solid #aaa; }
+  body{ font-family:'Verdana'; font-size:13px; }
+  .invoiceTbl tr td{ border:none; border-bottom: 1px solid #aaa;}
+.invoiceMainTbl table tr td{ font-size: 20px !important;}
+table td.width100{ width:100px;}

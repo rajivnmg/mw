@@ -1,0 +1,4 @@
+Dear %REGISTRATION_AS%,
+We are pleased to inform you that your account is now ACTIVE. You may initiate transactions by logging into your account.
+Regards, 
+%REGARDS_NAME%
