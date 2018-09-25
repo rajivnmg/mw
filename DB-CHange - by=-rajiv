@@ -1,8 +1,0 @@
-29/6/2018 to block the item master
-ALTER TABLE  `item_master` ADD  `blocked` ENUM(  'Yes',  'No',  '',  '' ) NULL DEFAULT  'No';
-
-23/7/2018 to set the global progit margin for all principal 
-ALTER TABLE  `principal_supplier_master` ADD  `PROFIT_MARGIN` FLOAT( 4, 2 ) NOT NULL COMMENT  'profit margin percentage' AFTER  `UserId` ;
-
-#Update profit margin for all
-UPDATE  `mwdb_rudra`.`principal_supplier_master` SET  `PROFIT_MARGIN` =  '10.00' WHERE 1;

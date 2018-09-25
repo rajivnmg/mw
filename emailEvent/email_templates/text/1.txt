@@ -1,5 +1,0 @@
-Dear Borrower,
-Welcome to Rupaiya Xchange!
-You have successfully registered yourself as a %REGISTRATION_AS%. Please note that your account is currently under review. 
-Regards, 
-%REGARDS_NAME%
